@@ -1,5 +1,5 @@
 # Redirect
-A simple python module to check websites!
+Check if a website is hiding sneaky redirects for you!
 
 **Usage:**
 ```py
