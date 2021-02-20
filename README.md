@@ -7,9 +7,10 @@ import redirect
 
 url = 'URL_HERE'
 
-redir = redirect.check(url)
-if redir:
-    print('Found a fishy site!')
+check = redirect.Redirect(url)
+
+if check.is_redirect:
+    print(check.redirect_url)
 else:
-    print('Looks safe to me!')
+    print(check.url)
 ```
