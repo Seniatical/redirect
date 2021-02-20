@@ -1,2 +1,1 @@
-from redirect import *
-from utils import *
+from redirect import Redirect
